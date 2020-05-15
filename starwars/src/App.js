@@ -5,20 +5,17 @@ import Character from '../src/components/Character';
 import styled from 'styled-components';
 
 const H = styled.h1`
+display:flex;
+justify-content:center;
 font-size: 4rem;
   text-shadow: 3px 3px 3px blue;
   color:white;
-  font-family: 'Indie Flower', cursive;
-  position: fixed;
   text-align:center;
-
 `;
-
 
 const App = () => {
   const [characters, setCharacters]= useState([]);
-  console.log("Characters", characters[0])
-
+  
 
   useEffect(()=>{
     axios
@@ -29,7 +26,7 @@ const App = () => {
 
   return (
    <div className='App'>
-      <H>Characters</H>
+      <H>Rick & Morti </H>
 
       <div className='character-container'>
 
