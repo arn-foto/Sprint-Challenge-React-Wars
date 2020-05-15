@@ -6,9 +6,12 @@ import styled from 'styled-components';
 
 const H = styled.h1`
 font-size: 4rem;
-  text-shadow: 3px 3px 3px red;
+  text-shadow: 3px 3px 3px blue;
   color:white;
   font-family: 'Indie Flower', cursive;
+  position: fixed;
+  text-align:center;
+
 `;
 
 
